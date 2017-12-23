@@ -106,6 +106,10 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
+  "netitaly.zapto.org:41283",
+  "62.94.37.53:41283",
+  "93.51.226.225:41283",
+  
   //"your_seed_ip1.com:8080",
   //"your_seed_ip2.com:8080",
 };
