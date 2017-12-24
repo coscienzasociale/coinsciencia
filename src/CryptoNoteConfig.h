@@ -73,7 +73,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 //TODO Put here the name of your currency
-const char     CRYPTONOTE_NAME[]                             = "coinsciencia";
+const char     CRYPTONOTE_NAME[]                             = "coinscientia";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "52 61 76 76 69 76 65 72 65 6d 6f 20 6c 65 20 63 6f 73 63 69 65 6e 7a 65 20 65 20 69 6c 20 70 6f 70 6f 6c c3 b2 20 61 76 72 c3 a0 20 6c 61 20 73 75 61 20 72 69 76 6f 6c 75 7a 69 6f 6e 65 2e 20 46 50";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
@@ -109,9 +109,6 @@ const std::initializer_list<const char*> SEED_NODES = {
   "netitaly.zapto.org:41283",
   "62.94.37.53:41283",
   "93.51.226.225:41283",
-  
-  //"your_seed_ip1.com:8080",
-  //"your_seed_ip2.com:8080",
 };
 
 struct CheckpointData {
